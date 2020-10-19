@@ -13,7 +13,7 @@ class Planet {
 
       push();
 
-      translate(windowWidth/2, -displayHeight/2);
+      translate(windowWidth/2, -windowHeight/2);
 
       rotateX(-0.4);
          push();

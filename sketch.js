@@ -11,11 +11,11 @@ var planetColorArray = ['grey', 'brown', 'blue', 'red', 'brown', 'green', 'light
 var planetRotationSpeed = [0.009, 0.007, 0.005, 0.003, 0.002, 0.0015, 0.0012, 0.0010];
 
 function setup() {
-  createCanvas(windowWidth, displayHeight, WEBGL);
+  createCanvas(windowWidth, windowHeight, WEBGL);
 
-  sun = new Sun(0, -displayHeight/2, 100);  
+  sun = new Sun(0, -windowHeight/2, 100);  
 
-  var planetYArray = [-displayHeight/2, -displayHeight/2, -displayHeight/2, -displayHeight/2, -displayHeight/2, -displayHeight/2, -displayHeight/2, -displayHeight/2];
+  var planetYArray = [-windowHeight/2, -windowHeight/2, -windowHeight/2, -windowHeight/2, -windowHeight/2, -windowHeight/2, -windowHeight/2, -windowHeight/2];
 
   for(var planet in planetArray) {
     //planet = index
