@@ -11,7 +11,7 @@ var planetColorArray = ['grey', 'brown', 'blue', 'red', 'brown', 'green', 'light
 var planetRotationSpeed = [0.009, 0.007, 0.005, 0.003, 0.002, 0.0015, 0.0012, 0.0010];
 
 function setup() {
-  createCanvas(displayWidth, displayHeight, WEBGL);
+  createCanvas(windowWidth, displayHeight, WEBGL);
 
   sun = new Sun(0, -displayHeight/2, 100);  
 

@@ -13,11 +13,11 @@ class Planet {
 
       push();
 
-      translate(displayWidth/2, -displayHeight/2);
+      translate(windowWidth/2, -displayHeight/2);
 
       rotateX(-0.4);
          push();
-         translate(-displayWidth/2, 400);
+         translate(-windowWidth/2, 400);
          rotateY(this.rotationAngle);
          noStroke();
             fill(this.color);
